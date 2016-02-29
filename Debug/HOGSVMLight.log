@@ -1,0 +1,33 @@
+﻿生成启动时间为 2016/2/29 10:12:50。
+     1>项目“D:\Myworkspace\VS2013\Detection\PedestrainDetection\HOGSVMLight\HOGSVMLight.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\svmlight\svmlight.h(126): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\svmlight\svmlight.h(128): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\svmlight\svmlight.h(138): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\main.cpp(94): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\main.cpp(355): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\main.cpp(453): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\main.cpp(722): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         E:\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt svmlight\svm_common.c svmlight\svm_hideo.c svmlight\svm_learn.c
+         svm_learn.c
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\svmlight\svm_learn.c(3488): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\svmlight\svm_learn.c(3841): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\svmlight\svm_learn.c(3891): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         svm_hideo.c
+         svm_common.c
+     1>d:\myworkspace\vs2013\detection\pedestraindetection\hogsvmlight\svmlight\svm_common.c(394): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+         正在生成代码...
+       Link:
+         E:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Myworkspace\VS2013\Detection\PedestrainDetection\Debug\HOGSVMLight.exe" /INCREMENTAL /NOLOGO D:\opencv\build\x86\vc12\lib\opencv_calib3d2411d.lib D:\opencv\build\x86\vc12\lib\opencv_contrib2411d.lib D:\opencv\build\x86\vc12\lib\opencv_core2411d.lib D:\opencv\build\x86\vc12\lib\opencv_features2d2411d.lib D:\opencv\build\x86\vc12\lib\opencv_flann2411d.lib D:\opencv\build\x86\vc12\lib\opencv_gpu2411d.lib D:\opencv\build\x86\vc12\lib\opencv_highgui2411d.lib D:\opencv\build\x86\vc12\lib\opencv_imgproc2411d.lib D:\opencv\build\x86\vc12\lib\opencv_legacy2411d.lib D:\opencv\build\x86\vc12\lib\opencv_ml2411d.lib D:\opencv\build\x86\vc12\lib\opencv_nonfree2411d.lib D:\opencv\build\x86\vc12\lib\opencv_objdetect2411d.lib D:\opencv\build\x86\vc12\lib\opencv_ocl2411d.lib D:\opencv\build\x86\vc12\lib\opencv_photo2411d.lib D:\opencv\build\x86\vc12\lib\opencv_stitching2411d.lib D:\opencv\build\x86\vc12\lib\opencv_superres2411d.lib D:\opencv\build\x86\vc12\lib\opencv_ts2411d.lib D:\opencv\build\x86\vc12\lib\opencv_video2411d.lib D:\opencv\build\x86\vc12\lib\opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Myworkspace\VS2013\Detection\PedestrainDetection\Debug\HOGSVMLight.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Myworkspace\VS2013\Detection\PedestrainDetection\Debug\HOGSVMLight.lib" /MACHINE:X86 Debug\main.obj
+         Debug\svm_common.obj
+         Debug\svm_hideo.obj
+         Debug\svm_learn.obj
+         HOGSVMLight.vcxproj -> D:\Myworkspace\VS2013\Detection\PedestrainDetection\Debug\HOGSVMLight.exe
+     1>已完成生成项目“D:\Myworkspace\VS2013\Detection\PedestrainDetection\HOGSVMLight\HOGSVMLight.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.97
